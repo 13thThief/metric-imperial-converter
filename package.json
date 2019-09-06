@@ -1,0 +1,32 @@
+{
+	"name": "metric-imperial-converter",
+	"version": "0.0.1",
+	"description": "Convert metric and imperial units interchangeably",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"helmet": "^3.21.0",
+		"mocha": "^6.2.0",
+		"zombie": "^6.1.4"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/13thThief/metric-imperial-converter.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
